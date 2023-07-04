@@ -1,0 +1,28 @@
+/* to create database*/
+create database vnk;
+
+/* to create a table*/
+create table vnk.sp(
+sl_No int,
+name varchar(20),
+Roll_No int,
+Department varchar(20),
+College_Name varchar(20),
+Place varchar(20));
+
+/to insert the values in table/ 
+insert into vnk.sp values
+(1,"naveenkumar.V",01,"B.E-Mechanical","MEC","Rasipuram"),
+(2,"praveen kumar",02,"B.E-Mechanical","MEC","Rasipuram"),
+(3,"naveen raj",03,"B.E-Mechanical","MEC","Rasipuram"),
+(4,"lokesh kumar",04,"B.E-Mechanical","MEC","Rasipuram"),
+(5,"Nelson alex",05,"B.E-Mechanical","MEC","Rasipuram"),
+(6,"abinesh",06,"B.E-Mechanical","MEC","Rasipuram"),
+(7,"siva kumar",07,"B.E-Mechanical","MEC","Rasipuram"),
+(8,"kavin kumar",08,"B.E-Mechanical","MEC","Rasipuram"),
+(9,"nithish raj",09,"B.E-Mechanical","MEC","Rasipuram"),
+(10,"mohan",010,"B.E-Mechanical","MEC","Rasipuram");
+
+/to display a table/
+select * from vnk.sp;
+drop table vnk.sp;
